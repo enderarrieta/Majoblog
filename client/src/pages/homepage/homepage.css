@@ -1,0 +1,23 @@
+.home {
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+}
+
+.homepage {
+  background-color: #edd3ff;
+}
+
+.outside {
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
+  padding: 0px;
+  z-index: 1;
+}
+
+.recent {
+  text-align: center;
+  padding: 20px;
+  color: #ff81b8;
+}

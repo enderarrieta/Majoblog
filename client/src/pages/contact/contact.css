@@ -1,0 +1,93 @@
+.contactBackground {
+    background-color: #edd3ff;
+    height: calc(100vh - 50px);
+    display: flex;
+    color: white;
+    position: relative;
+}
+
+.leftBackground {
+flex: 6;
+}
+
+.bottomCat {
+    background-image: url('http://localhost:5000/images/contactbg3.png');
+background-size: contain;
+background-repeat: no-repeat;
+width: 520px;
+height: 520px;
+position: absolute;
+top: 0%;
+left: 4%;
+}
+
+
+
+.rightBackground {
+    flex: 4;
+    margin: 20px;
+    margin-right: 250px;
+    background-color: #ffb5e8;
+    border-radius: 10px;
+    box-shadow: 10px 10px #ffeef9c5;
+}
+
+.showcase {
+    margin: 60px;
+}
+
+
+.showcase h1 {
+  align-self: center;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.text-input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    line-height: 35px;
+    border-bottom: 3px solid #fa8ebd;
+    width: 100%;
+    margin-top: 30px;
+    color: white;
+}
+
+.text-input::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    padding-left: 10px;
+}
+
+.text-area {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    line-height: 10px;
+    margin-top: 40px;
+    border-bottom: 3px solid #fa8ebd;
+    width: 100%;
+}
+
+.text-area::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+@media (max-width: 940px) {
+    .bottomCat {
+        width: 320px;
+        height: 320px;
+        top: 40%;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .bottomCat {
+    display: none;
+    }
+}
